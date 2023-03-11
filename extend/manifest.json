@@ -1,0 +1,16 @@
+{
+    "name": "Deleteblock",
+    "description": "Deleteblock",
+    "version": "0.1",
+    "permissions": [
+        "activetab",
+        "tabs",
+        "https//*",
+        "scripting"
+    ],
+    "action": {},
+    "background": {
+        "service_worker": "background.js"
+    },
+    "manifest_version": 3
+}
